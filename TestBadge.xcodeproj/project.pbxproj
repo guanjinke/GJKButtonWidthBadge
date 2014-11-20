@@ -14,6 +14,8 @@
 		E96320461A1C9732002CD56A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96320451A1C9732002CD56A /* Images.xcassets */; };
 		E96320491A1C9732002CD56A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E96320471A1C9732002CD56A /* LaunchScreen.xib */; };
 		E96320551A1C9733002CD56A /* TestBadgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96320541A1C9733002CD56A /* TestBadgeTests.swift */; };
+		E963205F1A1CE7BD002CD56A /* GJKBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963205E1A1CE7BD002CD56A /* GJKBadgeView.swift */; };
+		E96320611A1DC861002CD56A /* GJKButtonWithBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96320601A1DC861002CD56A /* GJKButtonWithBadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		E963204E1A1C9733002CD56A /* TestBadgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBadgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E96320531A1C9733002CD56A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E96320541A1C9733002CD56A /* TestBadgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBadgeTests.swift; sourceTree = "<group>"; };
+		E963205E1A1CE7BD002CD56A /* GJKBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GJKBadgeView.swift; sourceTree = "<group>"; };
+		E96320601A1DC861002CD56A /* GJKButtonWithBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GJKButtonWithBadge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				E96320471A1C9732002CD56A /* LaunchScreen.xib */,
 				E963203D1A1C9732002CD56A /* TestBadge.xcdatamodeld */,
 				E96320391A1C9732002CD56A /* Supporting Files */,
+				E963205E1A1CE7BD002CD56A /* GJKBadgeView.swift */,
+				E96320601A1DC861002CD56A /* GJKButtonWithBadge.swift */,
 			);
 			path = TestBadge;
 			sourceTree = "<group>";
@@ -215,7 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E963205F1A1CE7BD002CD56A /* GJKBadgeView.swift in Sources */,
 				E96320411A1C9732002CD56A /* ViewController.swift in Sources */,
+				E96320611A1DC861002CD56A /* GJKButtonWithBadge.swift in Sources */,
 				E963203C1A1C9732002CD56A /* AppDelegate.swift in Sources */,
 				E963203F1A1C9732002CD56A /* TestBadge.xcdatamodeld in Sources */,
 			);
